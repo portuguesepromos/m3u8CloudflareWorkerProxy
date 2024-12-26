@@ -1,7 +1,7 @@
-//import {M3u8ProxyV1} from "./logic/v1";
-//import {M3u8ProxyV2} from "./logic/v2";
-const { M3u8ProxyV1 } = require("./logic/v1");
-const { M3u8ProxyV2 } = require("./logic/v2");
+import {M3u8ProxyV1} from "./logic/v1";
+import {M3u8ProxyV2} from "./logic/v2";
+//const { M3u8ProxyV1 } = require("./logic/v1");
+//const { M3u8ProxyV2 } = require("./logic/v2");
 
 addEventListener("fetch", (event) => {
   event.respondWith(respondfetch(event.request));
