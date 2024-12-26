@@ -1,4 +1,4 @@
-import { getUrl } from "../utils";
+import { getUrl } from "../utils/index.js";
 
 const m3u8ContentTypes: string[] = [
   "application/vnd.",
