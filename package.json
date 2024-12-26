@@ -1,7 +1,7 @@
 {
   "name": "m3u8proxy",
   "version": "0.0.0",
-  "main" : "src/index.ts",
+  "main" : "dist/index.js",
   "type": "module",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230307.0",
