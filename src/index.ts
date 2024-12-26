@@ -1,5 +1,5 @@
-import {M3u8ProxyV1} from "./logic/v1";
-import {M3u8ProxyV2} from "./logic/v2";
+import {M3u8ProxyV1} from "./logic/v1.js";
+import {M3u8ProxyV2} from "./logic/v2.js";
 //const { M3u8ProxyV1 } = require("./logic/v1");
 //const { M3u8ProxyV2 } = require("./logic/v2");
 
